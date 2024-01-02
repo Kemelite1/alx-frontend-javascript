@@ -1,0 +1,1 @@
+All ALX students who successfully completed foundation are expected to choose either backend or frontend as specialization. This is my journey as a frontend software engineer(student) on ALX.
