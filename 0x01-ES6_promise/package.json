@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "name": "0x01-es6_promise",
+  "version": "1.0.0",
+  "description": "Promises in JavaScript are used to handle asynchronous operations. A promise is an object that is used as a placeholder for the future result of an asynchronous operation. In a less formal way, we can say it is a container for a future value. A promise has three states:\r 1. `Pending`: Before the future value is available\r 2. `Settled`: The asynchronous task has finished. There are two types:\r + `Fulfilled`: A fulfilled promise is successful; the value is now available.\r + `Rejected`: A rejected promise means there has been an error during the asynchronous task.\r # Why promises?\r + Promises help manage asynchronous operations, making the code more readable and maintainable.\r + They provide a cleaner alternative to callback functions, especially for handling nested asynchronous operations.",
+  "main": "0-main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
