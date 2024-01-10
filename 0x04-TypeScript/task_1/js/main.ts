@@ -7,6 +7,11 @@ interface Teacher {
     readonly location: string;
     [key: string]: any;
   }
+
+  //define the Directors interface extending Teacher
+  interface Directors extends Teacher{
+    numberOfReports: number;
+  }
   
   // Create a teacher object
   const teacher: Teacher = {
@@ -19,4 +24,16 @@ interface Teacher {
   
   // Log the teacher object
   console.log(teacher);
+  
+  //create a director object
+  const director: Directors = {
+    firstName: 'Gillian',
+    fullTimeEmployee: true,
+    lastName: 'Adeh',
+    location: 'London',
+    numberOfReports: 17,
+  }
+
+  //log the director object
+  console.log(director);
   
