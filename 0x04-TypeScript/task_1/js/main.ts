@@ -12,7 +12,18 @@ interface Teacher {
   interface Directors extends Teacher{
     numberOfReports: number;
   }
+
+  //define the printTeacherFunction interface
+  interface printTeacherFunction{
+    (firstName: string, lastName: string): string;
+  }
   
+  //implement the printTeacher function
+  const printTeacher: printTeacherFunction = (firstName, lastName) => {
+    const firstLetter = firstName.charAt(0).toUpperCase();
+    const fullName = `${firstLetter}. ${lastName}`;
+    return fullName;
+  }
   // Create a teacher object
   const teacher: Teacher = {
     firstName: 'Victor',
